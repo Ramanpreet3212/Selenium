@@ -32,7 +32,7 @@ public class checkBox {
 		if (text.equals("Powered by Elemental Selenium")) {
 			System.out.println("test pass");
 		} else {
-			System.out.println("test fail");
+			System.out.println("test failed");
 		}
 
 		driver.quit();
