@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T20:11:53 EDT" name="Default suite" finished-at="2025-06-03T20:11:58 EDT" duration-ms="5848">
+  <suite started-at="2025-06-12T22:55:43 EDT" name="Default suite" finished-at="2025-06-12T23:43:43 EDT" duration-ms="2879934">
     <groups>
     </groups>
-    <test started-at="2025-06-03T20:11:53 EDT" name="Default test" finished-at="2025-06-03T20:11:58 EDT" duration-ms="5848">
-      <class name="mousebehaviour.assignmentactions">
-        <test-method signature="actionsAssigment()[pri:0, instance:mousebehaviour.assignmentactions@38c6f217]" started-at="2025-06-03T20:11:53 EDT" name="actionsAssigment" finished-at="2025-06-03T20:11:58 EDT" duration-ms="5794" status="PASS">
+    <test started-at="2025-06-12T22:55:43 EDT" name="Default test" finished-at="2025-06-12T23:43:43 EDT" duration-ms="2879934">
+      <class name="windowhandles.windowHandlesEx">
+        <test-method signature="test()[pri:0, instance:windowhandles.windowHandlesEx@46cdf8bd]" started-at="2025-06-12T22:55:43 EDT" name="test" finished-at="2025-06-12T23:43:43 EDT" duration-ms="2879869" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- actionsAssigment -->
-      </class> <!-- mousebehaviour.assignmentactions -->
+        </test-method> <!-- test -->
+      </class> <!-- windowhandles.windowHandlesEx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

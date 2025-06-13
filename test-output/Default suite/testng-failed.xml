@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mousebehaviour.assignmentactions">
+      <class name="windowhandles.windowHandlesEx">
         <methods>
-          <include name="actionsAssigment"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- mousebehaviour.assignmentactions -->
+      </class> <!-- windowhandles.windowHandlesEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
