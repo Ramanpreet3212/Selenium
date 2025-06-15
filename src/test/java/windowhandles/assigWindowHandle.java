@@ -29,10 +29,10 @@ public class assigWindowHandle extends baseClass {
 		for (String win : windowSet) {
 			System.out.println(windowSet);
 
-			if (!windowSet.equals(winMain)) {
+			if (!win.equals(winMain)) {
 				driver.switchTo().window(win);
-				window = driver.findElement(By.xpath("//*[@id='sampleHeading']")).getText();
-				Assert.assertEquals(window, "This is a sample page");
+				window = driver.findElement(By.xpath("//*[@id='browserWindows']/h1")).getText();
+				Assert.assertEquals(window, "Browser Windows");
 				
 			}
 

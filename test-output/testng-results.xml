@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-14T16:24:50 EDT" name="Default suite" finished-at="2025-06-14T16:25:09 EDT" duration-ms="18857">
+  <suite started-at="2025-06-15T12:05:47 EDT" name="Default suite" finished-at="2025-06-15T12:06:09 EDT" duration-ms="22063">
     <groups>
     </groups>
-    <test started-at="2025-06-14T16:24:50 EDT" name="Default test" finished-at="2025-06-14T16:25:09 EDT" duration-ms="18857">
+    <test started-at="2025-06-15T12:05:47 EDT" name="Default test" finished-at="2025-06-15T12:06:09 EDT" duration-ms="22063">
       <class name="windowhandles.assigWindowHandle">
-        <test-method is-config="true" signature="initialise()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-14T16:24:50 EDT" name="initialise" finished-at="2025-06-14T16:24:56 EDT" duration-ms="5492" status="PASS">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-15T12:05:47 EDT" name="initialise" finished-at="2025-06-15T12:05:57 EDT" duration-ms="10065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialise -->
-        <test-method signature="assignment()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-14T16:24:56 EDT" name="assignment" finished-at="2025-06-14T16:25:07 EDT" duration-ms="11172" status="FAIL">
+        <test-method signature="assignment()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-15T12:05:57 EDT" name="assignment" finished-at="2025-06-15T12:06:08 EDT" duration-ms="11007" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sampleHeading']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='browserWindows']/h1"}
   (Session info: chrome=137.0.7151.104)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8a1500354bb36bd1bdc203a78987c156, findElement {using=xpath, value=//*[@id='sampleHeading']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\raman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65344/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a1500354bb36bd1bdc203a78987c156]]>
+Command: [ef971d062a2d69b938ece0e892bf3354, findElement {using=xpath, value=//*[@id='browserWindows']/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\raman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53728/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef971d062a2d69b938ece0e892bf3354]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sampleHeading']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='browserWindows']/h1"}
   (Session info: chrome=137.0.7151.104)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8a1500354bb36bd1bdc203a78987c156, findElement {using=xpath, value=//*[@id='sampleHeading']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\raman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65344/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a1500354bb36bd1bdc203a78987c156
+Command: [ef971d062a2d69b938ece0e892bf3354, findElement {using=xpath, value=//*[@id='browserWindows']/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\raman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53728/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef971d062a2d69b938ece0e892bf3354
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -81,7 +81,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignment -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-14T16:25:07 EDT" name="quit" finished-at="2025-06-14T16:25:09 EDT" duration-ms="2116" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:windowhandles.assigWindowHandle@77847718]" started-at="2025-06-15T12:06:08 EDT" name="quit" finished-at="2025-06-15T12:06:09 EDT" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
